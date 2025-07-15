@@ -1,6 +1,6 @@
 import './App.css';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Outlet
 } from 'react-router-dom';
@@ -25,34 +25,34 @@ const Layout = () => (
     <VoiceNavigation />
   </>
 );
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Layout />,
     errorElement: <ErrorPage />, // ✅ This handles unknown paths
     children: [
       {
-        path: '/',
+        index: true,
         element: <Introduction />
       },
       {
-        path: '/About',
+        path: 'About',
         element: <AboutMe />
       },
       {
-        path: '/Education',
+        path: 'Education',
         element: <Education />
       },
       {
-        path: '/Projects',
+        path: 'Projects',
         element: <Projects />
       },
       {
-        path: '/Contact',
+        path: 'Contact',
         element: <ContactMe />
       },
       {
-        path: '/Mannual',
+        path: 'Mannual',
         element: <VoiceNavigationMannual />
       },
       {
