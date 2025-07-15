@@ -1,0 +1,31 @@
+.Hiring{
+    margin-top: 1vh;
+    background-color: #F79B72;
+    color: #2A4759;
+    padding: 8px;
+}
+.Hiring:hover{
+    box-shadow: 0.5px 0.5px black;
+    transition-duration: 2.5s;
+}
+@media (max-width: 700px) {
+    .Hiring{
+        padding: 7.5px;
+        margin-top: 0vh;
+        font-size: 0.75em;
+    }
+}
+@media (max-width: 605px) {
+    .Hiring{
+        padding: 1px;
+        margin-top: 0vh;
+        font-size: 0.5em;
+    }
+}
+@media (max-width: 605px) {
+    .Hiring{
+        padding: 7.5px;
+        margin-top: 0vh;
+        font-size: 0.5em;
+    }
+}

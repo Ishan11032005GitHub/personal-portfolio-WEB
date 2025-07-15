@@ -1,0 +1,16 @@
+.box{
+    max-width: 1280px;
+    text-align: center;
+}
+.LeftArrow{
+    display: inline-block;
+    font-size: 2em;
+}
+.RightArrow{
+    display: inline-block;
+    font-size: 2em;
+}
+.LINES{
+    display: inline-block;
+    overflow-x: scroll;
+}

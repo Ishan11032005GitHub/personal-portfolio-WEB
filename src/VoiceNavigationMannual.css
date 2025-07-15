@@ -1,0 +1,16 @@
+.Mannual {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 50px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.Mannual p{
+    margin-bottom: 5vh;
+    font-size: 1.25em;
+}
+.points ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}

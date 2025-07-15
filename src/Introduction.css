@@ -1,0 +1,160 @@
+.Intro{
+    display: inline-block;
+    /* margin-top: 10vh; */
+    /* color: #2A4759; */
+}
+.Image{
+    display: inline-block;
+    border-radius: 50%;
+    height: 50vh;
+    width: 25vw;
+    margin-top: 2.5vh;
+}
+.ImageInternal{
+    display: inline-block;
+    border-radius: 50%;
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    border: 5px solid rgba(247, 155, 114, 0.375);
+    margin-top: 2.5vh;
+}
+.Description{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10vw;
+}
+.openingLine{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.Sent{
+    font-size: 1.5625em;
+    margin-bottom: 2.5vh;
+}
+.keyWords{
+    font-size: 1.5625em;
+    margin-top: 2.5vh;
+}
+.para{
+    margin-top: 0;
+}
+.summary{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+@media (max-width: 1287px) {
+    .Image{
+        height: 40vh;
+        width: 20vw;
+    }
+    .Description{
+        margin-left: 15vw;
+    }
+    .openingLine{
+    font-size: 2em;
+}
+.Sent{
+    font-size: 1.25em;
+}
+.keyWords{
+    font-size: 1.25em;
+}
+}
+@media (max-width: 1200px) {
+    .Image{
+        height: 40vh;
+        width: 20vw;
+    }
+    .Description{
+        margin-left: 10vw;
+    }
+    .openingLine{
+    font-size: 2.5em;
+}
+.Sent{
+    font-size: 1.5em;
+}
+.keyWords{
+    font-size: 1.5em;
+}
+}
+@media (max-width: 1075px) {
+    .Image{
+        height: 30vh;
+        width: 20vw;
+    }
+    .Description{
+        margin-left: 3.75vw;
+    }
+    .openingLine{
+    font-size: 2em;
+}
+.Sent{
+    font-size: 1em;
+    margin-bottom: 2vh;
+}
+.keyWords{
+    font-size: 1em;
+    margin-top: 2vh;
+}
+}
+@media (max-width: 768px) {
+    .Image{
+        height: 30vh;
+        width: 20vw;
+    }
+    .Description{
+        margin-left: 3.75vw;
+    }
+    .openingLine{
+    font-size: 1.5em;
+}
+.Sent{
+    font-size: 1em;
+    margin-bottom: 0.75vh;
+}
+.keyWords{
+    font-size: 0.75em;
+    margin-top: 0.5vh;
+}
+}
+@media (max-width: 700px) {
+    .Image{
+        height: 20vh;
+        width: 20vw;
+    }
+    .Description{
+        margin-left: 3.75vw;
+    }
+    .openingLine{
+    font-size: 1em;
+}
+.Sent{
+    font-size: 1em;
+    margin-bottom: 1vh;
+}
+.keyWords{
+    font-size: 1em;
+    margin-top: 1vh;
+}
+}
+@media (max-width: 605px) {
+    .Image{
+        height: 20vh;
+        width: 20vw;
+    }
+    .Description{
+        margin-left: 1.5vw;
+    }
+    .openingLine{
+    font-size: 1.25em;
+}
+.Sent{
+    font-size: 0.75em;
+    margin-bottom: 0vh;
+}
+.keyWords{
+    font-size: 0.75em;
+    margin-top: 0vh;
+}
+}

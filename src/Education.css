@@ -1,0 +1,102 @@
+.educationHistory {
+  width: 100%;
+  text-align: center;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+}
+
+.institute {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  border-left: 2px solid black;
+  margin-bottom: 2vh;
+  padding-left: 1.5vw;
+  box-sizing: border-box;
+}
+
+.institute h5 {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.institute i.fa-solid {
+  background-color: black;
+  padding: 8px;
+  border-radius: 50%;
+  color: white;
+}
+
+.location {
+  font-size: 1.25rem;
+  margin-left: 1.5vw;
+  display: inline-block;
+  margin-bottom: 0.25em;
+}
+
+.degree {
+  margin-left: 1.5vw;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.year {
+  margin-left: 1.5vw;
+  font-size: 0.75em;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .educationHistory {
+    padding: 2vh 2vw;
+  }
+
+  .institute {
+    font-size: 1.25rem;
+    border-left: 2px solid black;
+  }
+
+  .location {
+    font-size: 1rem;
+    margin-left: 1vw;
+  }
+
+  .degree {
+    margin-left: 1vw;
+    font-size: 0.95em;
+  }
+
+  .year {
+    font-size: 0.75em;
+    margin-left: 1vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .institute {
+    font-size: 1rem;
+  }
+
+  .location, .degree {
+    font-size: 0.85em;
+  }
+
+  .year {
+    font-size: 0.7em;
+  }
+}
+
+.educationHistory {
+  width: 100%;
+  text-align: center;
+  padding: 10vh 4vw 2vh 4vw; /* TOP padding increased */
+  box-sizing: border-box;
+}
+
+#education {
+  scroll-margin-top: 10vh;
+}
