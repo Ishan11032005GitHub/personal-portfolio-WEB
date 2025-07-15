@@ -66,7 +66,7 @@ return (
         </div>
       </div>
     </div>
-    <div className="Skills&Cretifications" style={{display:"flex",marginTop:"3.5vh"}}>
+    <div className="SkillsAndCretifications" style={{display:"flex",marginTop:"3.5vh"}}>
     <div className="Tech" style={{width:"50%"}}>
       <b>TECHNICAL <span style={{color:"#F79B72"}}>SKILLS</span></b>
       <ul style={{listStyle:"none",textAlign:"left"}}>
