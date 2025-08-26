@@ -12,9 +12,6 @@ export default function(){
                 <li>Say 'Projects' to navigate to the Projects page.</li>
                 <li>Say 'Education' to navigate to the Education page.</li>
                 <li>Say 'Contacts' to navigate to the Contact Me page.</li>
-                <li>Say 'Enable Light Theme' to navigate to enable light mode.</li>
-                <li>Say 'Enable Dark Theme' to navigate to enable dark mode.</li>
-                <li>Say 'Stop Voice Navigation' to turn off voice navigation.</li>
             </ul>
         </div>
         </div>
