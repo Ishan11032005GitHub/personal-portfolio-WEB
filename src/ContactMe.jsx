@@ -24,7 +24,7 @@ export default function ContactMe() {
           <a href="https://www.linkedin.com/in/ishan-tiwari-69b5a732a/" className="socials">
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
-          <a href="https://github.com/your-username" className="socials">
+          <a href="https://github.com/Ishan11032005GitHub" className="socials">
             <i className="fab fa-github fa-2x"></i>
           </a>
           <a href="https://leetcode.com/Ishan_LeetCode" className="socials">LC</a>
